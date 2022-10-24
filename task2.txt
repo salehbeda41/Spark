@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+int Maximum(int x, int y);
+int main()
+{
+    int x,y;
+    scanf("%d",&x);
+    scanf("%d",&y);
+    Maximum(x,y);
+
+    return 0;
+}
+int Maximum(int x, int y)
+{
+    if(x>=y){
+        printf("the maximum value is = %d",x);
+    }else{
+        printf("the maximum value is = %d",y);
+    }
+}
